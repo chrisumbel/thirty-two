@@ -1,0 +1,11 @@
+{
+  "name": "thirty-two",
+  "description": "Implementation RFC 3548 Base32 encoding/decoding for node.",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=0.2.6"
+  },
+  "author": "Chris Umbel <chris@chrisumbel.com>",
+  "keywords": ["base32", "encoding"],
+  "main": "./lib/thirty-two/index.js"
+}
