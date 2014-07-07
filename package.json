@@ -7,5 +7,9 @@
   },
   "author": "Chris Umbel <chris@chrisumbel.com>",
   "keywords": ["base32", "encoding"],
-  "main": "./lib/thirty-two/index.js"
+  "main": "./lib/thirty-two/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisumbel/thirty-two.git"
+  }
 }
