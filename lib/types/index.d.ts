@@ -1,3 +1,3 @@
-export type encode = (plain: string | Buffer) => Buffer;
-
-export type decode = (encoded: string | Buffer) => Buffer;
+/// <reference types="node" />
+export declare const encode: (plain: string | Buffer) => Buffer;
+export declare const decode: (encoded: string | Buffer) => Buffer;
