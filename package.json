@@ -6,6 +6,7 @@
     "node": ">=0.2.6"
   },
   "author": "Chris Umbel <chris@chrisumbel.com>",
+  "license": "MIT",
   "keywords": ["base32", "encoding"],
   "main": "./lib/thirty-two/index.js",
   "repository": {
