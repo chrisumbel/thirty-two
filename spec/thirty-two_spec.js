@@ -56,8 +56,8 @@ describe('thirty-two', function() {
     });
     
     it('should be binary safe', function() {
-        expect(base32.decode(base32.encode(new Buffer([0x00, 0xff, 0x88]))).toString('hex')).toBe('00ff88');
-    	expect(base32.encode(new Buffer("f61e1f998d69151de8334dbe753ab17ae831c13849a6aecd95d0a4e5dc25", 'hex')).toString()).toBe('6YPB7GMNNEKR32BTJW7HKOVRPLUDDQJYJGTK5TMV2CSOLXBF');
+        expect(base32.decode(base32.encode(Buffer.from([0x00, 0xff, 0x88]))).toString('hex')).toBe('00ff88');
+    	expect(base32.encode(Buffer.from("f61e1f998d69151de8334dbe753ab17ae831c13849a6aecd95d0a4e5dc25", 'hex')).toString()).toBe('6YPB7GMNNEKR32BTJW7HKOVRPLUDDQJYJGTK5TMV2CSOLXBF');
     	expect(base32.decode('6YPB7GMNNEKR32BTJW7HKOVRPLUDDQJYJGTK5TMV2CSOLXBF').toString('hex')).toBe('f61e1f998d69151de8334dbe753ab17ae831c13849a6aecd95d0a4e5dc25');
     });
 });
